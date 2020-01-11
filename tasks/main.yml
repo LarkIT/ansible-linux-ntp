@@ -1,5 +1,5 @@
 # tasks/main.yml
-# install and configure ntpd
+# Install and configure ntpd
 
 - include_role: 
     name: geerlingguy.ntp
