@@ -7,7 +7,8 @@ This role is known to work on the following operating systems:
 - CentOS 7
 
 ## Dependencies
-geerlingguy.ntp (https://galaxy.ansible.com/geerlingguy/ntp)
+This role depends on the following Ansible Galaxy roles:
+- geerlingguy.ntp (https://galaxy.ansible.com/geerlingguy/ntp)
 
 ## Variables
 
