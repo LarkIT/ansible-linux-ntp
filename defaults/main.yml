@@ -1,0 +1,6 @@
+# defaults/main.yml
+# Role default vars
+
+ntp_timezone: America/Denver
+ntp_manage_config: True
+ntp_area: us
