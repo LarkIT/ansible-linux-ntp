@@ -10,4 +10,9 @@ This role is known to work on the following operating systems:
 geerlingguy.ntp (https://galaxy.ansible.com/geerlingguy/ntp)
 
 ## Variables
-See Ansible Galaxy role documentation
+
+| Variable | Default Value | Type | Destcription |
+|----------|---------------|------|--------|
+| ntp_timeszone | America/Denver | String | NTP Timezone (tz) |
+| ntp_manage_config | True | Boolean | whether or not to manage ntpd configuration |
+| ntp_area | us | String | [NTP Pool Area](http://support.ntp.org/bin/view/Servers/NTPPoolServers) |
