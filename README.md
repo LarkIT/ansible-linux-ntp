@@ -11,8 +11,8 @@ geerlingguy.ntp (https://galaxy.ansible.com/geerlingguy/ntp)
 
 ## Variables
 
-| Variable | Default Value | Type | Destcription |
+| Variable | Default Value | Type | Description |
 |----------|---------------|------|--------|
 | ntp_timeszone | America/Denver | String | NTP Timezone (tz) |
-| ntp_manage_config | True | Boolean | whether or not to manage ntpd configuration |
+| ntp_manage_config | True | Boolean | Whether or not to manage ntpd configuration |
 | ntp_area | us | String | [NTP Pool Area](http://support.ntp.org/bin/view/Servers/NTPPoolServers) |
