@@ -2,3 +2,7 @@
 
 dependencies:
   - role: geerlingguy.ntp
+    vars: 
+      ntp_timezone: America/Denver
+      ntp_manage_config: true
+      ntp_area: us

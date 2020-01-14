@@ -12,8 +12,9 @@ This role depends on the following Ansible Galaxy roles:
 
 ## Variables
 
-| Variable | Default Value | Type | Description |
-|----------|---------------|------|--------|
-| ntp_timeszone | America/Denver | String | NTP Timezone (tz) |
-| ntp_manage_config | True | Boolean | Whether or not to manage ntpd configuration |
-| ntp_area | us | String | [NTP Pool Area](http://support.ntp.org/bin/view/Servers/NTPPoolServers) |
+| Variable | Required? | Default Value | Type | Description |
+|----------|---------|------|------|--------|
+| ntp_timeszone | Optional | America/Denver | String | NTP Timezone (tz) |
+| ntp_manage_config | Optional | True | Boolean | Whether or not to manage ntpd configuration |
+| ntp_area | Optional |  us | String | [NTP Pool Area](http://support.ntp.org/bin/view/Servers/NTPPoolServers) |
+| ntp_servers | Optional | - | String | Set your own NTP server ex. `192.168.1.1 iburst` |
