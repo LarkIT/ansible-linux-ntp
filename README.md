@@ -1,5 +1,4 @@
 # Lark IT Ansible NTP Role
-
 Install and configure ntpd
 
 ## Operating Systems
