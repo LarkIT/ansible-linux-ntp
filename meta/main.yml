@@ -4,7 +4,6 @@ dependencies:
   - role: geerlingguy.ntp
     vars: 
       # I don't want chrony (oldmanyellsatcloud.jpg)
-      ntp_timezone: America/Denver
       ntp_daemon: ntpd
       ntp_package: ntp
       ntp_config_file: /etc/ntp.conf
