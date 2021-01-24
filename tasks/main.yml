@@ -1,2 +1,7 @@
 # tasks/main.yml
 ---
+- name: Ensure Chrony is stopped and disabled
+  service: 
+    name: chrony
+    state: stopped
+    enabled: false
